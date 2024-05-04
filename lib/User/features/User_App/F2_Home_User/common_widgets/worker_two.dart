@@ -7,18 +7,18 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
 
 class Worker_two extends StatelessWidget {
-  late String firstName;
-  late String lastName;
-  late String email;
-  late String wilaya;
-  late String phoneNumber;
-  late String id;
-  late int rating;
-  late String ratingsNumber;
-  late int experience;
-  late String profilePicture;
-  late String job;
-  late bool isCertified;
+   String firstName;
+ String lastName;
+ String email;
+ String wilaya;
+   String phoneNumber;
+  String id;
+  int rating;
+  String ratingsNumber;
+   int experience;
+ String profilePicture;
+   String job;
+  bool isCertified;
   Worker_two({
     required this.firstName,
     required this.lastName,
